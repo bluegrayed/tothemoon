@@ -4,6 +4,9 @@ from plotly.subplots import make_subplots
 import time
 import pandas as pd
 
+access = "xxjC0FgNTR9EfJK56kwzQDj7YOXWEMxi0q7syoy2"
+secret = "6KjN0buV7TFwxSzmPIwBz6VaUYyAyBMa090U13Ss"
+
 def get_ohlcv(ticker):
     dfs = [ ]
     # df = pyupbit.get_ohlcv(ticker, interval="minute1", to="20210423 11:00:00")
